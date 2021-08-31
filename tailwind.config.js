@@ -10,11 +10,11 @@ module.exports = {
       colors: {
         'hoverspt': '#18d760',
         'purple-main': '#2d46b9',
-        'green-main': '1ed760'
+        'green-main': '#1ed760'
       },
       backgroundImage: theme => ({
-        'spotify-theme': "url('/img/bursts.svg')",
-        'spotify-theme-mobile': "url('/img/bursts-mobile.svg')"
+        'spotify-theme': "url('../../src/img/bursts.svg')",
+        'spotify-theme-mobile': "url('../../src/img/bursts-mobile.svg')"
       }),
       backgroundSize: {
         '175%': '175%',
